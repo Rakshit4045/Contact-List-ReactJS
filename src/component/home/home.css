@@ -1,0 +1,50 @@
+.contact-list{
+	width: 100%;
+	max-width: 640px;
+	text-align: right;
+	padding: 10px;
+	margin: 50px auto;
+}
+
+.contact-list .head{
+	padding-bottom: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 25px;
+	margin-bottom:20px;
+	border-width: 0px 0px 1px 0px;
+	border-style: solid;
+	border-color: black;
+}
+
+.contact-list .btns{
+	display: flex;
+}
+
+.contact-list .search-btn{
+	color: white;
+	font-size: 28px;
+	margin: 0px 10px;
+	padding: 10px;
+	background-color: var(--main-blue);
+	border-radius: 50%;
+	box-shadow: 1px 3px 8px 0px rgba(0, 0, 0, 0.6);
+}
+
+.contact-list .head .add{
+	font-size: 28px;
+	margin: 0px 10px;
+	padding: 10px;
+	border-radius: 50%;
+	background-color: var(--main-blue);
+	color: white; 
+	box-shadow: 1px 3px 8px 0px rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 350px){
+	.contact-list{
+		width: auto;
+		margin: 0px 10px;
+	}
+}

@@ -1,0 +1,63 @@
+.card{
+	display: grid;
+	grid-template-rows: auto 1.5fr 1fr 0.5fr;
+	margin: 100px auto;
+	background-color: #effa9f;
+	width: 100%;
+	max-width: 300px;
+	height: 430px;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.card .cancel-icon{
+	font-size: 20px;
+	margin: 10px 17px 10px auto;
+	width: fit-content;
+}
+
+.card .profile-img{
+	width: 120px;
+	height: 120px;
+	margin: 10px auto;
+	border-radius: 10px;
+}
+
+.card .info{
+	margin: 0px auto;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	justify-content: center; 
+	text-overflow: ellipsis;
+}
+
+.card p{
+	margin: 5px;
+}
+
+.card .profile-btn{
+	display: flex;
+	justify-content: space-around;
+}
+
+.card button{
+	padding: 0px 10px;
+	width: auto;
+	height: auto;
+	margin:  30px auto;
+	border: none;
+	background-color: #ffaa05;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.card .profile-link-btn{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+@media (max-width: 320px){
+	.card{
+		margin: 70px auto;
+	}
+}
